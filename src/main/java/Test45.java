@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
 public class Test45 {
     static WebDriver driver;
     public static void main(String[] args) {
-        System.setProperty("webdriver.gecko.driver", "C:\\\\Users\\\\igor\\\\IdeaProjects\\\\Test040L\\\\drivers\\\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "C:\\Users\\igor\\IdeaProjects\\webdrivers\\geckodriver.exe");
         driver = new FirefoxDriver();
         var wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

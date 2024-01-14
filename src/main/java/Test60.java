@@ -16,7 +16,7 @@ public class Test60 {
 
     static WebDriver driver;
     public static void main(String[] args) {
-        System.setProperty("webdriver.gecko.driver", "C:\\\\Users\\\\igor\\\\IdeaProjects\\\\Test040L\\\\drivers\\\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver", "C:\\Users\\igor\\IdeaProjects\\webdrivers\\geckodriver.exe");
         driver = new FirefoxDriver();
         driver.manage().window().setSize(new Dimension(1600, 1000));
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
